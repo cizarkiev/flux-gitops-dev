@@ -35,6 +35,9 @@ spec:
     kind: GitRepository
     name: flux-system
   git:
+    checkout:
+      ref:
+        branch: imageautomation
     commit:
       author:
         email: fluxcdbot@users.noreply.github.com
