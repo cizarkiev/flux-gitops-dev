@@ -28,12 +28,13 @@ apiVersion: image.toolkit.fluxcd.io/v1
 kind: ImageUpdateAutomation
 metadata:
   name: kbot-update
-  namespace: flux-system
+  namespace: demo
 spec:
   interval: 1m
   sourceRef:
     kind: GitRepository
     name: flux-system
+    namespace: flux-system
   git:
     checkout:
       ref:
