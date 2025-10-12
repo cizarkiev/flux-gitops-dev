@@ -18,7 +18,8 @@ spec:
   imageRepositoryRef:
     name: kbot
   filterTags:
-    pattern: '.*kbot.*'
+    extract: $ts
+    pattern: ^v.+-ts(?P<ts>[0-9]+) 
   policy:
-    semver:
-      range: 2.2.x
+    numerical:
+      order: asc
