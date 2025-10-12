@@ -17,8 +17,8 @@ metadata:
 spec:
   imageRepositoryRef:
     name: kbot
+  filterTags:
+    pattern: '.*kbot.*'
   policy:
-    filterTags:
-      pattern: '.*kbot.*'
     semver:
       range: 2.2.x
