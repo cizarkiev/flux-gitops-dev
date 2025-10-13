@@ -1,6 +1,9 @@
 name: push-artifact
 
-on: workflow_dispatch
+on: 
+  push:
+  workflow_dispatch:
+
   
 permissions:
   contents: write
