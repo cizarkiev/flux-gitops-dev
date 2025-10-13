@@ -7,5 +7,5 @@ metadata:
 spec:
   interval: 1m0s
   ref:
-    branch: main
+    branch: imageautomation
   url: https://github.com/den-vasyliev/kbot-src
