@@ -14,4 +14,4 @@ spec:
   interval: 1m0s
   values:
     image:
-      tag: v2.3.1-ts23456789 #{"$imagepolicy": "demo:kbot:tag"}
+      tag: v2.3.1-ts33456789 #{"$imagepolicy": "demo:kbot:tag"}
