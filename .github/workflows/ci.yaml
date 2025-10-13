@@ -1,10 +1,8 @@
 name: push-artifact
 
 on:
-  push:
-    branches:
-      - 'imageautomation'
-
+  workflow_dispatch
+  
 permissions:
   contents: write
   packages: write # needed for ghcr.io access
